@@ -8,6 +8,8 @@ public class Mobile {
     MemoryCard memoryCard;
     CPU cpu;
 
+
+    //A interface bateria não pode ser passada, deve ser usado um child
     @Inject
     public Mobile(Battery battery, MemoryCard memoryCard, CPU cpu) {
         this.battery = battery;

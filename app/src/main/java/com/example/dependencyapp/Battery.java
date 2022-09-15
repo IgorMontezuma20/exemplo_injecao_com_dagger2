@@ -2,13 +2,8 @@ package com.example.dependencyapp;
 
 import javax.inject.Inject;
 
-public class Battery {
+public interface Battery {
 
-    int powerPercentage;
-
-    @Inject
-    public Battery() {
-
-    }
+    void showType();
 
 }
